@@ -1,0 +1,13 @@
+.lii{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.lii:hover{
+    color: blue;
+}
+
+.wholesome{
+    text-align: center !important;
+}
