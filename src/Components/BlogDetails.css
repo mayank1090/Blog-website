@@ -87,3 +87,16 @@
   .letbe{
     width: 70%;
   }
+
+  @media screen and (max-width: 500px){
+    .below-parent{
+      display: block;
+      text-align: center;
+    }
+
+    .letbe {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  }

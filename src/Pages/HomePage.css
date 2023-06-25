@@ -144,9 +144,44 @@
     margin-bottom: 15px;
   }
 
-  .homparent{
-    width: 100% !important;
+  @media screen and (max-width: 780px){
+
+    .home-page{
+      display: block;
+    }
   }
+
+  @media screen and (max-width: 500px){
+
+    .recent-posts{
+      display: block;
+    }
+
+    .post-preview{
+      width: 80% !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .post{
+    background-color:#cbb79f;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post:hover{
+    scale: 1.1;
+    transition: 1s;
+  }
+
+  .post-preview:hover{
+    background-color: #cbb79f;
+    scale: 1.1;
+    transition: 1s;
+  }
+  
 
   
   

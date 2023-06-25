@@ -5,7 +5,6 @@ const FavoritePage = ({favorites}) => {
 
   return (
     <div style={{textAlign:"center"}}>
-      <h1>Welcome to the Favorites Page</h1>
       <Favorites
         favorites={favorites}
       />

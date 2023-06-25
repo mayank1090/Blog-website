@@ -52,8 +52,7 @@ function HomePage() {
     </Link>
   </div>
         </div>
-        <div>
-      <section className="featured-posts">
+      <div className="featured-posts">
       <h2>Featured Posts</h2>
       <div className="post">
         <h3>Post Title</h3>
@@ -71,7 +70,6 @@ function HomePage() {
         </p>
         <a href="#">Read More</a>
       </div>
-    </section>
     </div>
       </div>
       <footer>

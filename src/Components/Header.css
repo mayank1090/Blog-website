@@ -46,3 +46,29 @@ header {
   }
   
   
+
+  @media screen and (max-width: 780px){
+       
+    .navigation{
+      margin-top: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .ulone{
+      text-align: center;
+      width: 100%;
+    }
+
+    .header-container{
+      display: block;
+    }
+
+    .logo {
+      justify-content: center;
+      /* text-align: center; */
+      display: flex;
+      align-items: center;
+  }
+  }
+  
